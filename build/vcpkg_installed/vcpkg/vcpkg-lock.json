@@ -1,0 +1,8 @@
+{
+  "https://github.com/Microsoft/vcpkg": {
+    "HEAD": "e69c9817d28e0ad37a79b5623c17c2b87df8939f"
+  },
+  "https://github.com/MonicaLiu0311/vcpkg-registry.git": {
+    "HEAD": "082178ed8963ddebc69d4a78c2aede3fc841e277"
+  }
+}

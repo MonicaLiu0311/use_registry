@@ -1,0 +1,8 @@
+Package: beison
+Version: 1.0.1
+Depends: beicode
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 29de0bf093a9ddd45f82893378412007a0c2faab69622083d4faf16c2f9bc967
+Description: A simple json parsing and stringifying library
+Status: install ok half-installed

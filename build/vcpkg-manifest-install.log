@@ -1,0 +1,43 @@
+Fetching registry information from https://github.com/MonicaLiu0311/vcpkg-registry.git (HEAD)...
+Fetching registry information from https://github.com/Microsoft/vcpkg (HEAD)...
+Detecting compiler hash for triplet x64-windows...
+The following packages will be built and installed:
+    beicode[core]:x64-windows -> 1.0.0 -- C:\Users\v-liumonica\AppData\Local\vcpkg\registries\git-trees\cf6c9ca429d17aea2fc366516413871302d144dd
+    beison[core]:x64-windows -> 1.0.1 -- E:/registry/filesystem-registry\ports/beison/1.0.1
+    fmt[core]:x64-windows -> 9.1.0#1 -- E:\vcpkg02\buildtrees\versioning_\versions\fmt\3f452404270b508daf355b72031ad3ee7d0d5751
+  * vcpkg-cmake[core]:x64-windows -> 2022-12-22 -- C:\Users\v-liumonica\AppData\Local\vcpkg\registries\git-trees\1913f86defd2140d0a6751be2d51952e4090efa4
+  * vcpkg-cmake-config[core]:x64-windows -> 2022-02-06#1 -- C:\Users\v-liumonica\AppData\Local\vcpkg\registries\git-trees\8d54cc4f487d51b655abec5f9c9c3f86ca83311f
+Additional packages (*) will be modified to complete this operation.
+Restored 5 package(s) from C:\Users\v-liumonica\AppData\Local\vcpkg\archives in 147.4 ms. Use --debug to see more details.
+Installing 1/5 beicode:x64-windows...
+Elapsed time to handle beicode:x64-windows: 24.84 ms
+Installing 2/5 beison:x64-windows...
+Elapsed time to handle beison:x64-windows: 20.68 ms
+Installing 3/5 vcpkg-cmake-config:x64-windows...
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 65.42 ms
+Installing 4/5 vcpkg-cmake:x64-windows...
+Elapsed time to handle vcpkg-cmake:x64-windows: 29.56 ms
+Installing 5/5 fmt:x64-windows...
+Elapsed time to handle fmt:x64-windows: 39.58 ms
+Total install time: 327.7 ms
+beicode provides CMake targets:
+
+    # this is heuristically generated, and may not be correct
+    find_package(beicode CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE beicode::beicode)
+
+beison provides CMake targets:
+
+    # this is heuristically generated, and may not be correct
+    find_package(beison CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE beison::beison)
+
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+

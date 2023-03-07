@@ -1,0 +1,115 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/beison-x64-windows-1.0.1-2322371f-86b0-4a41-b20c-157fe97b6451",
+  "name": "beison:x64-windows@1.0.1 29de0bf093a9ddd45f82893378412007a0c2faab69622083d4faf16c2f9bc967",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-12e657924d99511514c0287ca5ce46882d3657c7"
+    ],
+    "created": "2023-03-07T06:46:34Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "beison",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/northwindtraders/beison",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "A simple json parsing and stringifying library",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "beison:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "29de0bf093a9ddd45f82893378412007a0c2faab69622083d4faf16c2f9bc967",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "northwindtraders/beison",
+      "downloadLocation": "git+https://github.com/northwindtraders/beison@1920a0411fc48f1e805f0001e6a0975865217b70",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "a3ad804f00e3deecef16c76d5c8355a0a727579145de210def8be64b775ec247477ec58d01bbdc233d467626eed2caf7048c60c147c7177cf8bb5d59add0c99a"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "23de114fdbec07b27784abfd6d3066e35c105a9389895ffeae1b7d11f3133d97"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5b26771bde65850a240d9c55647a878ac3aea897eb0a7b297fb85abe9e1ae049"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

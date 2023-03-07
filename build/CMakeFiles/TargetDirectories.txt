@@ -1,0 +1,3 @@
+E:/registry/2_use/build/CMakeFiles/main.dir
+E:/registry/2_use/build/CMakeFiles/ALL_BUILD.dir
+E:/registry/2_use/build/CMakeFiles/ZERO_CHECK.dir
